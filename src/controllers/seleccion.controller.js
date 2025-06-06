@@ -126,6 +126,7 @@ const updateSeleccion = async (req, res) => {
             magullado,
             rajado,
             botritis,
+            exportable,
             remisionId
         } = req.body;
 
@@ -156,7 +157,7 @@ const updateSeleccion = async (req, res) => {
             magullado,
             rajado,
             botritis,
-            remisionId
+            exportable
         });
 
         //Actualizar las relaciones en SeleccionRelaciones
